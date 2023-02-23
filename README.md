@@ -3,7 +3,9 @@
 ### small documentation
 
 Original code: https://github.com/Chia-Network/bls-signatures
+<br />
 Goal: rewrite entire python implementation in scala 3
+<br />
 specs: https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html
 Specs
 
