@@ -4,6 +4,7 @@
 
 Original code: https://github.com/Chia-Network/bls-signatures
 Goal: rewrite entire python implementation in scala 3
+specs: https://www.ietf.org/archive/id/draft-irtf-cfrg-bls-signature-05.html
 Specs
 
 ## What is the right way of rewriting the code?
