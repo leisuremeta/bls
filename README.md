@@ -12,5 +12,5 @@ Specs
 * Run sbt on terminal and enter ~Test/compile to check correctness of your code
 * If you see some errors then you should work on them.
 * Fields.scala file is the longest and one of the hardest since it contains lots of type declarations and there you can witness clash of object oriented and functional programming paradigms.
-* Hash_to_field.scala, hkdf.scala and partially fields.scala files were able to pass  ~Test/compile command. Other files are need modifications
+* Hash_to_field.scala, hkdf.scala and large portion of fields.scala files were able to pass  ~Test/compile command. Other files are need modifications
 
