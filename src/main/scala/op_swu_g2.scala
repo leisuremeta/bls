@@ -1,4 +1,5 @@
 package bls
+/*
 import scala.math.BigInt
 import scala.Option
 
@@ -118,3 +119,4 @@ class op_swu_g2:
       val Pp = iso3(osswu2_help(t))
       val Pp2 = if (t2.isDefined) iso3(osswu2_help(t2)) else JacobianPoint(Fq2(0), Fq2(0), Fq2(0))
       Pp + Pp2
+*/

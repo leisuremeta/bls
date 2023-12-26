@@ -1,4 +1,5 @@
 package bls
+/*
 import javax.crypto.Mac
 import javax.crypto.spec.SecretKeySpec
 
@@ -24,3 +25,4 @@ class util:
         val kopad = keyPad.zip(opad).map { case (a, b) => (a ^ b).toByte }
         val kipad = keyPad.zip(ipad).map { case (a, b) => (a ^ b).toByte }
         hash256(kopad ++ hash256(kipad ++ m))
+*/

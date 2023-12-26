@@ -1,5 +1,5 @@
 package bls
-
+/*
 class schemes:
     val basic_scheme_dst: Array[Byte] = "BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_NUL_".getBytes()
     val aug_scheme_dst: Array[Byte] = "BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_AUG_".getBytes()
@@ -149,3 +149,4 @@ class PopSchemeMPL:
     def derive_child_sk_unhardened(sk: PrivateKey, index: Int): PrivateKey = derive_child_sk_unhardened(sk, index)
 
     def derive_child_pk_unhardened(pk: JacobianPoint, index: Int): JacobianPoint = derive_child_g1_unhardened(pk, index)
+*/

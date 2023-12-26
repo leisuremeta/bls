@@ -1,4 +1,5 @@
 package bls
+/*
 import javax.crypto.Mac
 import javax.crypto.spec.SecretKeySpec
 import math.ceil
@@ -55,3 +56,4 @@ class hkdf:
       val prk = extract(salt, key)
       expand(L, prk, info)
 
+*/

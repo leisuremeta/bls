@@ -1,5 +1,5 @@
 package bls
-
+/*
 class PrivateKey(val value: BigInt):
     val PRIVATE_KEY_SIZE = 32
 
@@ -44,3 +44,4 @@ class PrivateKey(val value: BigInt):
 
     def aggregate(privateKeys: Seq[PrivateKey]): PrivateKey =
         new PrivateKey(privateKeys.map(_.value).sum % default_ec.n)
+*/

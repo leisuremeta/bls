@@ -1,4 +1,5 @@
 package bls
+/*
 import scala.math._
 
 case class EC(q: BigInt, a: BigInt, b: BigInt, gx: BigInt, gy: BigInt, 
@@ -386,3 +387,4 @@ def evalIso(P: JacobianPoint, mapCoeffs: List[List[Fq2]], ec: EllipticCurve): Ja
     val X = mapVals(0).get * mapVals(3).get * Z
     val Y = mapVals(2).get * mapVals(1).get * Z * Z
     new JacobianPoint(X, Y, Z, P.infinity, ec)
+*/

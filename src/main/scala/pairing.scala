@@ -1,4 +1,5 @@
 package bls
+/*
 import scala.collection.immutable.List
 
 // case class EC(q: BigInt, a: BigInt, b: BigInt, gx: BigInt, gy: BigInt, g2x: BigInt, g2y: BigInt, n: BigInt, h: BigInt, x: BigInt, k: BigInt, sqrt_n3: BigInt, sqrt_n3m1o2: BigInt)
@@ -78,3 +79,4 @@ class pairing:
         do
             prod *= millerLoop(T, Ps(i).toAffine(), Qs(i).toAffine(), ec)
         final_exponentiation(prod, ec.get) 
+*/

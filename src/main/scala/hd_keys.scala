@@ -1,5 +1,5 @@
 package bls
-
+/*
 class hd_keys:
     
     def key_gen(seed: Array[Byte]): PrivateKey =
@@ -44,3 +44,4 @@ class hd_keys:
     def derive_child_g2_unhardened(parent_pk: JacobianPoint, index: Int): JacobianPoint =
         val h = hash256(parent_pk.toByteArray ++ index.toByteArray)
         parent_pk + (PrivateKey.from_bytes(h) * G2Generator())
+*/
