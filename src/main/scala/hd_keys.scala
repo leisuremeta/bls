@@ -1,5 +1,6 @@
-package bls
 /*
+package bls
+
 class hd_keys:
     
     def key_gen(seed: Array[Byte]): PrivateKey =

@@ -1,5 +1,9 @@
+val V = new {
+  val organiseImports = "0.6.0"
+  val iron = "2.3.0"
+}
 
-val scala3Version = "3.2.2"
+val scala3Version = "3.3.1"
 
 lazy val root = project
   .in(file("."))
@@ -9,10 +13,9 @@ lazy val root = project
 
     scalaVersion := scala3Version,
 
-    libraryDependencies += "org.web3j" % "core" % "5.0.0",
-    libraryDependencies += "com.google.protobuf" % "protobuf-java" % "3.18.1",
+    libraryDependencies += "org.scalameta" %% "munit" % "0.7.29" % Test,
+    libraryDependencies += "io.github.iltotore" %% "iron" % V.iron,
 
-    libraryDependencies += "qa.hedgehog" %% "hedgehog-munit" % "0.10.0",
-
-    testFrameworks += TestFramework("munit.runner.Framework"),
   )
+
+ThisBuild / scalafixDependencies += "com.github.liancheng" %% "organize-imports" % V.organiseImports

@@ -1,5 +1,6 @@
-package bls
 /*
+package bls
+
 class schemes:
     val basic_scheme_dst: Array[Byte] = "BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_NUL_".getBytes()
     val aug_scheme_dst: Array[Byte] = "BLS_SIG_BLS12381G2_XMD:SHA-256_SSWU_RO_AUG_".getBytes()

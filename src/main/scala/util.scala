@@ -1,5 +1,6 @@
-package bls
 /*
+package bls
+
 import javax.crypto.Mac
 import javax.crypto.spec.SecretKeySpec
 

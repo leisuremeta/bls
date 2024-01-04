@@ -1,5 +1,6 @@
-package bls
 /*
+package bls
+
 object bls12381:
     val x = BigInt("-0xD201000000010000")
 

@@ -1,5 +1,6 @@
-package bls
 /*
+package bls
+
 class PrivateKey(val value: BigInt):
     val PRIVATE_KEY_SIZE = 32
 

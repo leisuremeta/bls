@@ -1,5 +1,6 @@
-package bls
 /*
+package bls
+
 import scala.math._
 
 case class EC(q: BigInt, a: BigInt, b: BigInt, gx: BigInt, gy: BigInt, 

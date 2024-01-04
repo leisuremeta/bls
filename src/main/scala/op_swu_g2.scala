@@ -1,5 +1,6 @@
-package bls
 /*
+package bls
+
 import scala.math.BigInt
 import scala.Option
 
